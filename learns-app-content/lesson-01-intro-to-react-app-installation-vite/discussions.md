@@ -169,5 +169,5 @@ You just learned about several core React concepts: components, declarative prog
 3. Ask the AI chatbot to give feedback on your explanation, telling you what you got right and where your understanding could be improved.
 4. Revise your explanation based on what you learned.
 
-**Example prompt**: 
-> "I just learned about React and why it exists. Here's my understanding of the problem React solves and how the Virtual DOM helps: [your explanation]. Can you tell me what I got right and what I should refine?"
+**Example prompts**:
+> - "I just learned about React and why it exists. Here's my understanding of the problem React solves and how the Virtual DOM helps: [your explanation]. Can you tell me what I got right and what I should refine?"

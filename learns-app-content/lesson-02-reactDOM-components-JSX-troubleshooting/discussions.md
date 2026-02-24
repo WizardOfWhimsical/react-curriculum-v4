@@ -341,11 +341,9 @@ You just learned how ReactDOM connects your app to the page, how components are 
 4. Revise your explanation based on the feedback, then compare your revised version to this lesson's examples.
 
 **Example prompts**:
-> "I just learned how ReactDOM `createRoot`, the `render()` call in `main.jsx`, and the `div#root` in `index.html` work together. Here's my explanation: [your explanation]. What did I get right, and what should I refine?"
-
-> "I noticed `StrictMode` can make components mount twice in development. Here's my understanding of why React does that and what kinds of bugs it helps reveal: [your explanation]. What am I understanding well, and what should I correct?"
-
-> "I saw this Vite/React error message: [paste error]. Here is how I interpret the top part of the message and caret location: [your interpretation]. Is my reading correct, and what clues should I focus on first next time?"
+> - "I just learned how ReactDOM `createRoot`, the `render()` call in `main.jsx`, and the `div#root` in `index.html` work together. Here's my explanation: [your explanation]. What did I get right, and what should I refine?"
+> - "I noticed `StrictMode` can make components mount twice in development. Here's my understanding of why React does that and what kinds of bugs it helps reveal: [your explanation]. What am I understanding well, and what should I correct?"
+> - "I saw this Vite/React error message: [paste error]. Here is how I interpret the top part of the message and caret location: [your interpretation]. Is my reading correct, and what clues should I focus on first next time?"
 
 [^class-component]: React components can also be class-based but it's not common to see them any more. With the introduction of hooks in React v16.8 (released February, 2019), many of the disadvantages of functional components disappeared. A large portion of the JavaScript community eschews [OOP](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming) in favor of [functional](https://github.com/readme/guides/functional-programming-basics) programming. This is not a judgement, just an observation.
 [^side-effects]: In JavaScript, a side effect refers to any observable behavior or change that a function introduces beyond simply returning a value. Side effects can include modifying variables outside the function's scope, interacting with the DOM, making API calls, and updating state in a React component. Side effects can impact the application's state, environment, or external systems in ways that go beyond the function's primary purpose of computing and returning a value.

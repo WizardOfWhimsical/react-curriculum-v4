@@ -175,10 +175,13 @@ Before submitting, verify that your app works correctly:
 
 Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
 
-1. "I just split my app into `App`, `TodoList`, and `TodoForm`. Here’s my explanation of why this is better than keeping everything in one file: [my explanation]. What did I get right, and what should I refine?"
-2. "Here’s how I think `import`, `export`, and `export default` work between components in this assignment: [my explanation]. Can you correct mistakes and give me one quick check question?"
-3. "I added a form with `<label htmlFor=\"todoTitle\">` and `<input id=\"todoTitle\" />`. Here’s why I think this improves accessibility: [my explanation]. What did I miss?"
-4. "I want to self-check my understanding. Based on this week’s tasks (component creation, imports, moving logic, form structure), ask me 5 short concept questions without giving answers first."
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I just split my app into `App`, `TodoList`, and `TodoForm`. Here’s my explanation of why this is better than keeping everything in one file: [my explanation]. What did I get right, and what should I refine?"
+> - "Here’s how I think `import`, `export`, and `export default` work between components in this assignment: [my explanation]. Can you correct mistakes and give me one quick check question?"
+> - "I added a form with `<label htmlFor=\"todoTitle\">` and `<input id=\"todoTitle\" />`. Here’s why I think this improves accessibility: [my explanation]. What did I miss?"
+> - "I want to self-check my understanding. Based on this week’s tasks (component creation, imports, moving logic, form structure), ask me 5 short concept questions without giving answers first."
 
 #### Version Control and Submission
 
