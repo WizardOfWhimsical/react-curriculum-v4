@@ -81,7 +81,10 @@ Confirm that your browser's console contains no errors before proceeding.
 
 #### If You Get Stuck
 
-If you run into errors or unexpected behavior while cleaning up App.jsx, resist the urge to ask AI for the complete solution. 
+If you run into errors or unexpected behavior while cleaning up App.jsx:
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
 
 Instead, try this:
 

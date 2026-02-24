@@ -109,6 +109,52 @@ When updating lesson materials, add short AI-usage prompts that align with CTD's
 - **Time management prompts:** Help students break work into smaller tasks or plan catch-up schedules.
 - **Translation prompts:** Allow students to request translations or simplified explanations in their native language.
 
+## Weekly AI Prompt Planning Pattern
+
+Use this pattern when adding AI prompts for weekly materials so materials remain consistent between weeks.
+
+### Discussion Pattern
+
+- Add a section titled **Check Your Understanding with AI** near the end of `discussions.md`.
+- Include a short 4-step flow:
+  1. Explain in your own words from memory.
+  2. Ask AI for critique and gaps.
+  3. Revise explanation.
+  4. Compare against lesson examples/docs.
+- Include **4 example prompts** ordered to match the week's concept sequence.
+- Format example prompts as an **unordered list inside a markdown quote block**.
+- Add policy reminder language: AI should provide feedback and hints, not complete solutions.
+
+### Assignment Pattern
+
+- Add a final section (or final subsection block) that includes:
+  - **Test Your Application**
+  - **Checkpoint: Check Your Understanding with AI**
+  - **Version Control and Submission**
+- In the checkpoint, include **4 prompts** and direct students to choose 1–2 and generate one of their own.
+- Format checkpoint prompts as an **unordered list inside a markdown quote block**.
+- Keep prompts tied directly to assignment tasks and expected app capabilities.
+- Add policy reminder language as a **NOTE callout** immediately before prompts. Use this default text unless week-specific wording is needed:
+  - `>[!NOTE]`
+  - `>Do not ask AI to complete the assignment code for you.`
+- Keep reminder intent consistent: explain first, then request feedback; avoid answer-generation requests.
+
+### Prompt Quality Rules
+
+- Prioritize retrieval practice, prediction, and reasoning checks over code generation.
+- Anchor prompts to that week's lesson order (earlier concepts appear first).
+- Keep language concise and beginner-friendly.
+- Ask for critique, corrections, or follow-up questions rather than final code.
+
+### Weekly Review Checklist Additions
+
+When reviewing weekly content updates, verify:
+
+- `discussions.md` includes one **Check Your Understanding with AI** section.
+- `assignment.md` includes one **Checkpoint: Check Your Understanding with AI** section in final steps.
+- Prompt count and ordering follow this pattern unless a week-specific rationale is documented.
+- Prompt content aligns with CTD AI policy and the week's learning objectives.
+
 ## CTD Swag Demo Application Reference
 
 When building code examples for weekly discussions, **ALWAYS** reference the comprehensive CTD Swag documentation in `references/demos-context/CTD-Swag/`:
