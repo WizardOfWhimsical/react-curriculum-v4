@@ -488,3 +488,22 @@ export default ProductList;
 ```
 
 ![alt](https://raw.githubusercontent.com/Code-the-Dream-School/react-curriculum-v4/refs/heads/main/learns-app-content/lesson-03-components-hooks-state-props/assets/render-priority-product-list.png)
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+>[!reminder]
+> Use AI as a learning coach, not an answer key.
+
+**Example prompts**:
+
+> - "I just learned about component lifecycle. Here's my explanation of what mount, update, and unmount mean, plus what can trigger re-renders: [your explanation]. What did I get right, and what should I refine?"
+> - "I wrote this explanation of why hooks exist and what the rules of hooks protect against: [your explanation]. Can you check it for accuracy and ask me one follow-up question to test my understanding?"
+> - "I used `useState` and I think I understand why mutating variables directly doesn't update the UI in React. Here's my explanation, including immutability and batched updates: [your explanation]. What should I correct or make clearer?"
+> - "Here is my understanding of how props (including `children`) pass data from parent to child in this week's refactor: [your explanation]. What am I understanding well, and what am I missing?"

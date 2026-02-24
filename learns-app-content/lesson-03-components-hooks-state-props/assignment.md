@@ -45,6 +45,36 @@ While the `todoList` can be accessed by using `props.todoList` it's a good pract
    1. Keep the `key` props here as it is still needed.
    2. Add a `todo` props which takes in `todo`.
 
+### Instructions Part 4: Final Steps and Submission
+
+#### Test Your Application
+
+Before submitting, verify that your app works correctly:
+
+- The page loads without console errors
+- Todos are managed in state using `useState`
+- Todo items are rendered through the `TodoList` component using props
+- Each todo is rendered by a `TodoListItem` component
+
+#### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I moved my todos into state with `useState`. Here is my understanding of why React state updates trigger re-renders while normal variable changes do not: [my explanation]. What did I get right, and what should I refine?"
+> - "I updated `TodoList` to receive data through props. Here is my explanation of how data flows from `App` to `TodoList`: [my explanation]. Can you check my reasoning and point out anything inaccurate?"
+> - "I refactored `function TodoList(props)` to `function TodoList({ todoList })`. Here is my explanation of what destructuring changes (and what it does not): [my explanation]. Is this accurate?"
+> - "I created `TodoListItem` and now map returns component instances with a `key`. Here is my understanding of why `key` stays in the map and is not used inside `TodoListItem`: [my explanation]. What should I improve?"
+
+#### Version Control and Submission
+
+- Commit your changes to your local working branch.
+- Push the branch to GitHub.
+- In GitHub, create a PR (pull request) that compares your working branch to `main`.
+- Copy the PR link and submit assignment.
+
 ### What You Accomplished This Week
 
 Congratulations! You've successfully:
@@ -54,5 +84,5 @@ Congratulations! You've successfully:
 - ✅ Practiced props destructuring for cleaner, more readable code
 - ✅ Created reusable components that accept and display dynamic data
 
-> [!note]
+> [!NOTE]
 > **Important**: The concepts covered this — state management and props — are fundamental to all React development. Make sure you're comfortable with `useState`, props passing, and component communication before moving on to more advanced topics.
