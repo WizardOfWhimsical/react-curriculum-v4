@@ -149,6 +149,27 @@ Before completing the assignment, verify that your app works correctly:
 - The form works with both the submit button and Enter key
 - Empty or whitespace-only todos are not added
 
+### Instructions Part 6: Final Steps and Submission
+
+#### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "In handleAddTodo, I see event.preventDefault(). Here's my explanation of why this is necessary in a form submission: [my explanation]. Is this accurate?"
+> - "I'm accessing the todo text with event.target.todoTitle.value. Here's my understanding of how the form field name connects to this: [my understanding]. Did I get this right?"
+> - "I use Date.now() to create unique IDs for each todo. Here's why I think this is better than using array index: [my reasoning]. Would this work in production?"
+> - "I added inputRef.current.focus() after adding a todo. Here is my explanation of what useRef does and why this keeps focus on the input: [my explanation]. What should I clarify?"
+
+#### Version Control and Submission
+
+- Commit your changes to your local working branch.
+- Push the branch to GitHub.
+- In GitHub, create a PR (pull request) that compares your working branch to `main`.
+- Copy the PR link and submit assignment.
+
 ### What You Accomplished This Week
 
 Congratulations! You've successfully:

@@ -587,3 +587,20 @@ useEffect(() => {
 
 > [!note]
 > A handler function's name doesn't have to remain the same when it passed through props. We could have called the props `addItem` when defining ProductCard and then added that to the `onClick`
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I see StrictMode wrapping my app in index.jsx. Here's my understanding of what it does and what problems it helps catch during development: [my explanation]. Is this accurate?"
+> - "I learned that state should not be mutated directly. Here's my explanation of why React uses shallow comparison and why spreading arrays/objects is necessary: [my explanation]. What should I refine?"
+> - "I'm looking at this useEffect code: [paste code]. I predict this effect will run [when/how many times] because of the dependency array being [your interpretation]. Am I right?"
+> - "Explain in your own words: what is a synthetic event, and how do callback functions passed as props let child components communicate with parents?"
+> - "Trace this flow: user clicks button → handleAddItemToCart is called → cart state updates → component re-renders. Here's my explanation of each step: [steps]. Did I miss anything?"
