@@ -957,3 +957,19 @@ CTD Swag is coming along! A user can browse items in the list, add items to thei
 ![adding product variants to cart](https://raw.githubusercontent.com/Code-the-Dream-School/react-curriculum-v4/refs/heads/main/learns-app-content/lesson-05-local-state-controlled-components-forms/assets/add-products-mod-cart.gif)
 
 We still have a ways to go before this app is complete though. We still need to allow users to choose item variants, shirt sizes, a checkout, and an order history. Before CTD Swag becomes challenging to continue to develop, we will take some time next week to refactor our code into further sub-components and some utility functions. We will also talk about organizing a React project so that it continues to be easy to manage as the codebase grows.
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "Looking at ternary operators vs the && operator for showing/hiding components in React, I understand that a ternary offers two options (true/false branches) while && only renders if true. When would I choose && over a ternary? What did I miss?"
+> - "I'm noticing that every time I update state in the Cart component, the whole component re-renders. I predict this re-renders all cart items even if I only changed one. Is my reasoning correct? If not, what's actually happening?"
+> - "In the lesson, controlled components use useState to sync form inputs with state, while uncontrolled forms use useRef to access the DOM directly. I think controlled components are always better, but the lesson hints there are tradeoffs. What are the scenarios where uncontrolled makes sense?"
+> - "The Cart component makes a copy of the cart (workingCart) to manage edits locally instead of updating App's cart state directly. I understand this prevents unwanted re-renders up the tree, but I want to make sure I understand when to lift state vs keep it local. Can you ask me 3 questions to test my understanding?"
