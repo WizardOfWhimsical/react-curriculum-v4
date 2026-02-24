@@ -129,6 +129,17 @@ Before completing the assignment, verify that your app works correctly:
 - The input field updates as you type (controlled component behavior)
 - The form clears after submitting a todo
 
+### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I've added a ternary operator in TodoList to show 'Add todo above to get started' when the list is empty. I think my logic is: `todoList.length === 0 ? emptyMessage : todoList`. Is my understanding of this pattern correct for this use case?"
+> - "I've wired up a controlled checkbox in TodoListItem with checked={todo.isCompleted} and onChange={() => onCompleteTodo(id)}. When I check the box, the todo disappears from the list. I predict this is because the TodoList filters out isCompleted items. Is that flow correct?"
+> - "I converted the TodoForm to a controlled component: I added useState for workingTodoTitle, connected it to the input with value and onChange, and after submit I reset the input to empty string. Did I implement the controlled component pattern correctly? What's the best practice I should follow?"
+
 ### What You Accomplished This Week
 
 Congratulations! You've successfully:
