@@ -19,7 +19,7 @@ Developing an SPA without libraries (or even with jQuery) is a complicated proce
 
 Often, this includes adding or removing sub-elements that aren't known about ahead of time like list items or images loaded from a remote data source. Each element may need event listeners which in turn, are configured with logic to update the interface. Listeners also need to be managed carefully to keep the application performing smoothly. They don't automatically disappear when elements they are used on are removed or are no longer needed. Forgotten event listeners take up memory on a user's system and can cause serious performance issues or can even crash a browser. This is a lot to manage!
 
-The most of the current front end libraries or frameworks use a declarative approach to programing a UI. Declarative programming allows us to describe the SPA's structure and state. It is then library's/framework's responsibility to accomplish the all the tasks needed to keep the UI updated as state changes. As a consequence, it allows us to create complex SPAs with relative ease compared to approaches that do not use a framework.
+The most of the current front end libraries or frameworks use a declarative approach to programming a UI. Declarative programming allows us to describe the SPA's structure and state. It is then library's/framework's responsibility to accomplish the all the tasks needed to keep the UI updated as state changes. As a consequence, it allows us to create complex SPAs with relative ease compared to approaches that do not use a framework.
 
 React's strength comes from its use of components and the way it keeps the UI updated. Components allow us to divide an SPA into smaller modules consisting of page elements, styling, and state logic. In programming terms, components encourage "separation of concerns". Components allow us to focus on small portions of the application at a time. Each component does one or a few things rather than having a large files (HTML, CSS, JS) that group all a page's functionality together. While React handles client-side rendering, most production apps now leverage frameworks such as Next.js or Remix to handle routing, data fetching, and server rendering strategies like SSR and SSG, which improve both SEO and performance.
 
@@ -170,4 +170,5 @@ You just learned about several core React concepts: components, declarative prog
 4. Revise your explanation based on what you learned.
 
 **Example prompts**:
+>
 > - "I just learned about React and why it exists. Here's my understanding of the problem React solves and how the Virtual DOM helps: [your explanation]. Can you tell me what I got right and what I should refine?"
