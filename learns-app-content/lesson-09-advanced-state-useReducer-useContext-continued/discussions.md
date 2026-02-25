@@ -741,3 +741,19 @@ const value = useMemo(() => ({ theme, toggleTheme }), [theme]);
 In the light/dark theme example, both `Header` and `Main` access and update the same theme value directly — improving readability and maintainability.
 
 However, use context thoughtfully. Overusing or mismanaging context values can lead to unnecessary re-renders and performance slowdowns. Keep your contexts focused, memoized, and minimal for best results.
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I just learned about the Redux pattern that inspired useReducer. Here is my understanding of what dispatch, actions, and reducer functions each do: [my explanation]. What did I get right, and what should I refine?"
+> - "I learned that useReducer is preferred over multiple useState calls when state is complex. Here is my explanation of the main benefits of centralizing state logic in a reducer, and when useState is still the better choice: [my explanation]. Is this accurate, and what am I missing?"
+> - "I implemented useContext to eliminate prop drilling. Here is how I understand the relationship between createContext, a Provider component, and the useContext hook when sharing state across component levels: [my explanation]. What did I get right, and what should I refine?"
+> - "I learned that misusing context can cause performance issues because all consumers re-render when the context value changes. Here is my explanation of why splitting contexts and memoizing provider values helps avoid unnecessary re-renders: [my explanation]. Can you check my reasoning and ask me a follow-up question?"
