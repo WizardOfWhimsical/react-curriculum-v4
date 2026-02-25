@@ -558,3 +558,19 @@ function Cart({
 Alternatively, we can `useNavigate` with a delta value which is a number that represents how far forward or back in the history stack to navigate. For example: `useNavigate(-1)` would be the equivalent of hitting the browser's back button. Negative numbers, especially -1 are the most common values seen but positive values would work if the back only if the current page is several layers below the top of the history stack.
 
 Routing is a powerful tool that enhances the user experience by providing intuitive and efficient navigation within your applications. We've only touched on the highlights of the library and it contains other hooks, components, and methods. Even with just with what has been discussed this week, you have a robust and flexible set of tools that simplifies the implementation of routing in React.
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I learned that a React SPA loads a single HTML file and manages navigation without fetching new pages from the server. Here's my explanation of why this breaks browser history and URL sharing by default, and how React Router solves both problems: [my explanation]. What did I get right, and what should I refine?"
+> - "I set up BrowserRouter, Routes, and Route components in my app. Here's how I understand what each one does and why they need to be nested in that order: [my explanation]. Is this accurate, and what would happen if I used a path that doesn't match any Route?"
+> - "I used useParams to read a dynamic segment from the URL, like `/products/:id`. Here's my explanation of how React Router maps the URL segment to the params object and how I used the id to look up the right product: [my explanation]. Can you check my reasoning and ask me one follow-up question?"
+> - "I used useNavigate to programmatically move the user to a new route after an action, like closing the cart and navigating to /checkout. Here's how I understand the difference between passing a path string versus a delta number to navigate: [my explanation]. What did I miss or get wrong?"
