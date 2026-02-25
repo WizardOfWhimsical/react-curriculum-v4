@@ -474,5 +474,5 @@ Explain in your own words first, then ask for feedback on what is accurate and w
 **Example prompts**:
 
 > - "I learned that `useCallback` memoizes a function so it isn't re-created on every render. Here's my explanation of why passing a new function reference on every render can cause unnecessary re-renders in child components, and how `useCallback` solves that: [my explanation]. What did I get right, and what should I refine?"
-> - "I added a debounce delay to my search input so the API is only called after the user stops typing. Here's my explanation of what debouncing is, why it matters for performance, and how the `useDebounce` hook achieves it: [my explanation]. What did I miss or get wrong?"
+> - "I learned about debouncing as a technique to delay function execution until a user stops a repeated action like typing. Here's my explanation of what debouncing is and why it matters for reducing unnecessary API calls: [my explanation]. What did I get right, and what should I refine?"
 > - "I compared local data manipulation to API-based sort and search. Here's my explanation of when each approach is the better choice and what factors drive that decision: [my explanation]. Can you check my reasoning and ask me one follow-up question?"
