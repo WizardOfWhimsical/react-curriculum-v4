@@ -637,6 +637,18 @@ Use `useContext` when you have:
 
 **Error Boundaries**: Separate error types (general vs. filter errors) for better user experience.
 
+#### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I replaced multiple useState calls in TodosPage with a single useReducer. Here is my explanation of what the reducer function receives, what it returns, and how dispatch replaces direct state setters: [my explanation]. Is my reasoning correct?"
+> - "I defined action type constants in an exported TODO_ACTIONS object. Here is my explanation of why using named constants prevents bugs that plain strings would not catch: [my explanation]. What did I get right, and what should I refine?"
+> - "I implemented optimistic updates in my reducer so the UI changes immediately, with a rollback case if the API call fails. Here is my explanation of what state the START action saves and how the ERROR action uses it to restore the previous value: [my explanation]. Can you check my understanding and ask me one follow-up question?"
+> - "I created an AuthContext with a useAuth hook and wrapped my app in an AuthProvider. Here is my explanation of how this eliminated the authentication prop drilling that previously passed token and setToken through Header, Logoff, and TodosPage: [my explanation]. What did I miss or get wrong?"
+
 ### What You Accomplished This Week
 
 ✅ **Mastered useReducer**: Consolidated 8 state variables into a single, manageable reducer  
