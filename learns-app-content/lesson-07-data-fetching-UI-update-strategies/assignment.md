@@ -273,6 +273,18 @@ Before submitting, verify that your app:
 - Handles network failures gracefully with rollback functionality
 - Maintains todos in state between operations
 
+### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I added a useEffect that calls fetchTodos when the token changes. Here's my explanation of why the token is in the dependency array and what would happen if I passed an empty array instead: [my explanation]. Is my reasoning correct?"
+> - "I implemented an optimistic update for addTodo: I add the todo to state immediately, then make the API call. Here's why I think this improves user experience and what risks it introduces if the API call fails: [my explanation]. What did I miss?"
+> - "My completeTodo function stores the original todo before updating state, then uses that stored value to roll back on failure. Here's my explanation of why the rollback is necessary and how it works: [my explanation]. Can you check my understanding and ask me one follow-up question?"
+> - "I used a pessimistic update for the Logon component: the token is only set after a successful API response. Here's my explanation of why pessimistic updates make sense for authentication but optimistic updates make sense for adding todos: [my explanation]. What should I refine?"
+
 ### What You Accomplished This Week
 
 Congratulations! You've successfully:
