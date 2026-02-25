@@ -929,7 +929,7 @@ Explain in your own words first, then ask for feedback on what is accurate and w
 
 **Example prompts**:
 
-> - "I just learned about async data fetching with the Fetch API. Here's my explanation of why we use async/await instead of blocking JavaScript, and how try/catch/finally maps onto the promise lifecycle: [my explanation]. What did I get right, and what should I refine?"
+> - "I used fetch inside a useEffect in my React component to load data from an API. Here's my explanation of why fetch belongs inside useEffect rather than directly in the component body, and how async/await works with the try/catch/finally pattern inside that hook: [my explanation]. What did I get right, and what should I refine?"
 > - "I learned that useEffect can trigger a fetch when a component mounts. Here's how I understand the dependency array's role in controlling when the effect runs: [my explanation]. Is this accurate, and what edge cases should I know about?"
 > - "I learned the difference between optimistic and pessimistic UI updates. Here's my explanation of when you'd choose each approach and what the tradeoffs are: [my explanation]. What did I miss or get wrong?"
 > - "I implemented error handling that rolls back state when an API call fails. Here's my explanation of why storing the original value before the optimistic update is necessary and how the rollback works: [my explanation]. Can you check my reasoning and ask me a follow-up question?"
