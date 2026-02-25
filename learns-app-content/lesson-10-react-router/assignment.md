@@ -647,6 +647,18 @@ Your application will use this routing structure:
 
 ---
 
+### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I wrapped protected routes in a RequireAuth component that checks for a token and redirects to login if it's missing. Here's my explanation of why this pattern is better than putting the auth check inside each page component: [my explanation]. Is my reasoning correct?"
+> - "I used useSearchParams to store the todo status filter in the URL so the filter persists on page refresh. Here's how I understand the difference between managing filter state with useState versus useSearchParams, and why URL-based state matters for shareability: [my explanation]. What did I get right, and what should I refine?"
+> - "I used NavLink instead of Link for my navigation menu because NavLink adds an 'active' class to the current route's link. Here's my explanation of when I'd choose NavLink over Link and how React Router determines which link is active: [my explanation]. Can you check my understanding and ask me one follow-up question?"
+> - "I added a catchall Route with path='*' so that unmatched URLs show a 404 page instead of a blank screen. Here's my explanation of why the order of Route components matters and what would happen if the catchall route were listed first: [my explanation]. What did I miss?"
+
 ### What You Accomplished This Week
 
 ✅ **Multi-page application structure** with client-side routing  
