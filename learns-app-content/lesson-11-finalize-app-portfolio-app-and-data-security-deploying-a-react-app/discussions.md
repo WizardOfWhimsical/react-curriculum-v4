@@ -1519,4 +1519,20 @@ The API integration experience you gained in React (handling HTTP requests, mana
 
 Your deployment experience with platforms like Vercel or Render provides valuable context for understanding how full-stack applications work together. You'll see the other side of the deployment process as you build Express servers that handle database connections, user authentication, and API endpoints that power React front-ends.
 
-**Congratulations on completing this curriculum and developing the skills that will serve you throughout your development career. The applications you've built, the problems you've solved, and the knowledge you've gained represent significant achievement that you should be proud of! Welcome to the community of React developers—you've earned your place here.**  
+**Congratulations on completing this curriculum and developing the skills that will serve you throughout your development career. The applications you've built, the problems you've solved, and the knowledge you've gained represent significant achievement that you should be proud of! Welcome to the community of React developers—you've earned your place here.**
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I just learned about CSS Modules as a styling approach for React. Here's my explanation of how CSS Modules prevent naming conflicts and why that matters in a component-based app: [my explanation]. What did I get right, and what should I refine?"
+> - "I learned about XSS attacks and how React's JSX escaping helps prevent them. Here's my understanding of what XSS is, how it works, and what additional steps like DOMPurify add on top of React's built-in protections: [my explanation]. Is this accurate, and what edge cases should I know about?"
+> - "I learned why environment variables that start with VITE_ are exposed to the browser while others are not. Here's my explanation of what that means for storing API keys securely in a Vite React app: [my explanation]. What did I miss or get wrong?"
+> - "I deployed a React app to a static hosting service. Here's my explanation of what happens during the build step, why the output is a dist folder of static files, and how the hosting service serves those files to users: [my explanation]. Can you check my reasoning and ask me a follow-up question?"  
