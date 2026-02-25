@@ -298,6 +298,38 @@ const {
 
 This pattern shows how custom hooks can encapsulate related state and logic, making components cleaner and enabling reuse across different components that need similar editing functionality.
 
+### Instructions Part 7: Final Steps and Submission
+
+#### Test Your Application
+
+Before completing the assignment, verify that your app works correctly:
+
+- `TextInputWithLabel` is reused in both the add form and edit flow
+- Clicking a todo title switches it into edit mode
+- The edit input is controlled by local state and updates as you type
+- Cancel resets the edited value back to the original title
+- Update saves the edited title and exits edit mode
+- Validation prevents empty or whitespace-only titles from being submitted
+
+#### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I moved `TodoForm`, `TodoList`, and `TodoListItem` into feature folders and updated imports. Here is how I verified import paths and app behavior: [my checks]. What is one additional verification step I should run?"
+> - "I extracted `TextInputWithLabel` with `elementId`, `labelText`, `onChange`, `ref`, and `value`. Here is why each prop is needed in both create and edit flows: [my explanation]. Which prop relationships should I clarify?"
+> - "I created `isEditing` and `workingTitle` in `TodoListItem` and wired `onChange` to update local state. Here is my event flow from clicking a title to editing and canceling: [my flow]. Where could this flow break?"
+> - "I implemented `updateTodo` in `App` and passed `onUpdateTodo` through `TodoList` to `TodoListItem`, then submit/update writes `workingTitle` back to `todoList`. Here is my data flow summary: [my summary]. Does this preserve immutability correctly?"
+
+#### Version Control and Submission
+
+- Commit your changes to your local working branch.
+- Push the branch to GitHub.
+- In GitHub, create a PR (pull request) that compares your working branch to `main`.
+- Copy the PR link and submit assignment.
+
 ### Closing Notes
 
 At this point, we've created a solid MVP (minimum viable product). Next week, we are going to work with a Node/Express API to synchronize the todo list remotely so a user can save todos.

@@ -341,6 +341,7 @@ You just learned how ReactDOM connects your app to the page, how components are 
 4. Revise your explanation based on the feedback, then compare your revised version to this lesson's examples.
 
 **Example prompts**:
+
 > - "I just learned how ReactDOM `createRoot`, the `render()` call in `main.jsx`, and the `div#root` in `index.html` work together. Here's my explanation: [your explanation]. What did I get right, and what should I refine?"
 > - "I noticed `StrictMode` can make components mount twice in development. Here's my understanding of why React does that and what kinds of bugs it helps reveal: [your explanation]. What am I understanding well, and what should I correct?"
 > - "I saw this Vite/React error message: [paste error]. Here is how I interpret the top part of the message and caret location: [your interpretation]. Is my reading correct, and what clues should I focus on first next time?"

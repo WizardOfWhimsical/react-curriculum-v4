@@ -142,7 +142,8 @@ Before refreshing the browser, study the code you just wrote inside the `<ul>` t
 3. Now refresh the browser and check — were you right?
 4. If anything surprised you, ask the AI to explain the concept you're unsure about.
 
-**Example prompt:** 
+**Example prompt:**
+
 >"Looking at this JSX code: `{todoList.map(todo => <li key={todo.id}>{todo.title}</li>)}`, I predict it will render [your prediction] because [your reasoning about map and JSX]. Am I understanding this correctly? If not, what am I missing about how map works inside JSX?"
 
 #### Result

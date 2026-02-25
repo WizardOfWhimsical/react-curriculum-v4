@@ -755,6 +755,22 @@ Over in the `Cart` component we import `CartItem` then replace the list item wit
 
 All of these changes should result in an interface that continues to look and behave just the same. However, our code is now organized better and it's easier to read the code in `App` and `Cart` components.
 
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I learned that a component is reusable when structure is the same and props are consistent. Here is how I would decide whether to extract a repeated UI block: [my criteria]. What did I miss?"
+> - "For the Dialog example, I think `kind` controls display variants while `children` controls content flexibility. Here is my explanation of why both are useful together: [my explanation]. Is my reasoning accurate?"
+> - "I compared helper functions and custom hooks. My rule is: helper function for pure logic, custom hook for stateful lifecycle logic. Here are two examples and where I would place each: [my examples]. Can you critique my classification?"
+> - "For project organization, I think feature folders should hold feature-specific components and shared should hold cross-feature UI. Here is where I would place ProductCard, CartItem, Header, and validation helpers: [my placement]. Which placements should I revise and why?"
+
 ### Summary
 
 This week, you've explored how to create reusable components, extract logic into helper functions and custom hooks, organize project files systematically, and refactor existing components. As your applications grow in complexity the refactoring techniques you've learned will help you maintain clean, readable, and maintainable codebases. The systematic approaches to component extraction and file organization will serve you well as you tackle more advanced React concepts in the coming weeks, including data fetching, performance optimization, and state management patterns.
