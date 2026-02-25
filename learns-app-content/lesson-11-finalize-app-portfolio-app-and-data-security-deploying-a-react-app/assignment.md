@@ -243,6 +243,31 @@ Ensure all features work correctly in the production environment:
 - [ ] Navigation between different todo views
 - [ ] Error handling and user feedback
 
+### Test Your Application
+
+Before submitting, verify that your app:
+
+- Builds successfully with `npm run build` and runs without errors using `npm run preview`
+- Applies consistent professional styling across all components and views
+- Sanitizes and validates all user inputs before processing
+- Has no exposed secrets or API keys in the client bundle
+- Passes cross-device testing on desktop and mobile viewports
+
+#### Checkpoint: Check Your Understanding with AI
+
+Choose 1–2 prompts below. Explain in your own words first, then ask AI for feedback.
+
+> [!NOTE]
+> Do not ask AI to complete the assignment code for you.
+
+> - "I chose CSS Modules to style my React app. Here's my explanation of how CSS Modules scope class names to components and why that prevents conflicts when two components use the same class name: [my explanation]. Is my reasoning correct?"
+> - "I stored my API base URL in a .env file using a VITE_ prefix. Here's my explanation of why the VITE_ prefix is required, what happens to that value during the build, and why truly sensitive secrets should not use that prefix: [my explanation]. Can you check my understanding and ask me one follow-up question?"
+> - "I deployed my React app to Vercel by connecting my GitHub repository. Here's my explanation of what Vercel does with my source code during deployment, how environment variables are configured separately from the repository, and why the dist folder is what gets served to users: [my explanation]. What should I refine?"
+
+### Version Control and Submission
+
+Commit your final changes and push them to GitHub before submitting.
+
 ### Submission Requirements
 
 **For Lesson 11, submit your project URL instead of a pull request link.**

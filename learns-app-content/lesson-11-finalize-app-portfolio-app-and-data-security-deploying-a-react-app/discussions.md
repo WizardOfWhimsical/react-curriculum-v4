@@ -1519,4 +1519,19 @@ The API integration experience you gained in React (handling HTTP requests, mana
 
 Your deployment experience with platforms like Vercel or Render provides valuable context for understanding how full-stack applications work together. You'll see the other side of the deployment process as you build Express servers that handle database connections, user authentication, and API endpoints that power React front-ends.
 
-**Congratulations on completing this curriculum and developing the skills that will serve you throughout your development career. The applications you've built, the problems you've solved, and the knowledge you've gained represent significant achievement that you should be proud of! Welcome to the community of React developers—you've earned your place here.**  
+**Congratulations on completing this curriculum and developing the skills that will serve you throughout your development career. The applications you've built, the problems you've solved, and the knowledge you've gained represent significant achievement that you should be proud of! Welcome to the community of React developers—you've earned your place here.**
+
+### Check Your Understanding with AI
+
+Explain in your own words first, then ask for feedback on what is accurate and what needs revision.
+
+1. Open your preferred AI chatbot.
+2. Choose one concept from this lesson and explain it from memory.
+3. Ask the AI to critique your explanation and point out gaps.
+4. Revise your explanation and compare it to this week's examples.
+
+**Example prompts**:
+
+> - "I learned what goes into a portfolio-ready README. Here's my explanation of what each section—project description, features list, setup instructions, screenshots, and design decisions—contributes and why it matters to someone evaluating my work: [my explanation]. What did I get right, and what should I refine?"
+> - "I learned about XSS attacks and how React's JSX escaping helps prevent them. Here's my understanding of what XSS is, how it works, and what additional steps like DOMPurify add on top of React's built-in protections: [my explanation]. Is this accurate, and what edge cases should I know about?"
+> - "I learned that CORS becomes important when a deployed React app calls a backend API on a different domain. Here's my explanation of what CORS is, why browsers enforce it, and what needs to be configured on the backend when moving from local development to production deployment: [my explanation]. Can you check my reasoning and ask me a follow-up question?"  
