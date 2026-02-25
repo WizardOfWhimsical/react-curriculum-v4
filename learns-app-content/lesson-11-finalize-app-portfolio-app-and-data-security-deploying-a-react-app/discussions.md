@@ -1532,7 +1532,6 @@ Explain in your own words first, then ask for feedback on what is accurate and w
 
 **Example prompts**:
 
-> - "I just learned about CSS Modules as a styling approach for React. Here's my explanation of how CSS Modules prevent naming conflicts and why that matters in a component-based app: [my explanation]. What did I get right, and what should I refine?"
+> - "I learned what goes into a portfolio-ready README. Here's my explanation of what each section—project description, features list, setup instructions, screenshots, and design decisions—contributes and why it matters to someone evaluating my work: [my explanation]. What did I get right, and what should I refine?"
 > - "I learned about XSS attacks and how React's JSX escaping helps prevent them. Here's my understanding of what XSS is, how it works, and what additional steps like DOMPurify add on top of React's built-in protections: [my explanation]. Is this accurate, and what edge cases should I know about?"
-> - "I learned why environment variables that start with VITE_ are exposed to the browser while others are not. Here's my explanation of what that means for storing API keys securely in a Vite React app: [my explanation]. What did I miss or get wrong?"
-> - "I deployed a React app to a static hosting service. Here's my explanation of what happens during the build step, why the output is a dist folder of static files, and how the hosting service serves those files to users: [my explanation]. Can you check my reasoning and ask me a follow-up question?"  
+> - "I learned that CORS becomes important when a deployed React app calls a backend API on a different domain. Here's my explanation of what CORS is, why browsers enforce it, and what needs to be configured on the backend when moving from local development to production deployment: [my explanation]. Can you check my reasoning and ask me a follow-up question?"  
