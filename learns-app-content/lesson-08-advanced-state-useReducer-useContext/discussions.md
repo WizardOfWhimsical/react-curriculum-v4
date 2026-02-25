@@ -474,6 +474,5 @@ Explain in your own words first, then ask for feedback on what is accurate and w
 **Example prompts**:
 
 > - "I learned that `useCallback` memoizes a function so it isn't re-created on every render. Here's my explanation of why passing a new function reference on every render can cause unnecessary re-renders in child components, and how `useCallback` solves that: [my explanation]. What did I get right, and what should I refine?"
-> - "I used `useMemo` with a version counter to control when a cached value is recalculated. Here's how I understand the relationship between the version in state, the `useMemo` dependency array, and when the memoized value actually updates: [my explanation]. Is this accurate?"
-> - "I implemented a debounced search that delays API calls until the user stops typing. Here's my explanation of why calling the API on every keystroke is a problem, and how the debounce delay solves it: [my explanation]. What edge cases or tradeoffs did I miss?"
+> - "I added a debounce delay to my search input so the API is only called after the user stops typing. Here's my explanation of what debouncing is, why it matters for performance, and how the `useDebounce` hook achieves it: [my explanation]. What did I miss or get wrong?"
 > - "I compared local data manipulation to API-based sort and search. Here's my explanation of when each approach is the better choice and what factors drive that decision: [my explanation]. Can you check my reasoning and ask me one follow-up question?"
