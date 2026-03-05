@@ -387,7 +387,7 @@ const payload = {
   - `catch` block:
     - Log the error to console.
     - Update `errorMessage` using the ``setErrorMessage(`${error.message}. Reverting todo...`);``
-    - Create a `revertedTodos` using the `originalTodo` to reset that todo's value to a previous state.
+    - Use the functional update pattern on the `todoList` state to put the `originalTodo` back into its place in the list.
     - Update state with `setTodoList(previous => previous.map((todo) => todo.id === originalTodo.id ? originalTodo : todo)));`
   - `finally` block:
     - Set the state value, `isSaving`, to false.
