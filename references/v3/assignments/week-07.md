@@ -120,13 +120,19 @@ While still in App.jsx:
 So far, it should look like:
 
 ```jsx
-{/*extract from App.jsx*/}
-{/*...code*/}
+{
+  /*extract from App.jsx*/
+}
+{
+  /*...code*/
+}
 useEffect(() => {
-    const fetchTodos = async () => {};
-    fetchTodos();
-}, [])
-{/*code continues...*/}
+  const fetchTodos = async () => {};
+  fetchTodos();
+}, []);
+{
+  /*code continues...*/
+}
 ```
 
 - continuing in `fetchTodos`
@@ -194,20 +200,20 @@ Use the below `map` examples as reference if needed:
 
 const response = await response.json();
 const fetchedExamples = response.records.map((record) => {
-    const example = {
-        id: record.id,
-        //destructuring is a compact way to move all fields over
-        //won't need to change this a lot as the app evolves
-        ...record.fields,
-        };
-    if(!example.booleanProperty){
-        //Airtable doesn't return properties whose values are false or empty strings
-        //explicity setting property to false so field exists and prevents logic bugs
-        example.booleanProperty = false;
-    }
-    return example;
-})
-setExamples([...fetchedExamples])
+  const example = {
+    id: record.id,
+    //destructuring is a compact way to move all fields over
+    //won't need to change this a lot as the app evolves
+    ...record.fields,
+  };
+  if (!example.booleanProperty) {
+    //Airtable doesn't return properties whose values are false or empty strings
+    //explicity setting property to false so field exists and prevents logic bugs
+    example.booleanProperty = false;
+  }
+  return example;
+});
+setExamples([...fetchedExamples]);
 ```
 
 -or a more compact version-
@@ -275,7 +281,7 @@ It should now look like:
 
 ```jsx
 <button disabled={workingTodoTitle.trim() === ''}>
-    {isSaving ? 'Saving...' : 'Add Todo'}
+  {isSaving ? 'Saving...' : 'Add Todo'}
 </button>
 ```
 
@@ -329,7 +335,7 @@ const addTodo = async (newTodo) => {
     - If the `isCompleted` property in the `records` object is not true, explicitly set that on property on `savedTodo` to `false`
       - This looks like `if (!records[0].fields.isCompleted) {savedTodo.isCompleted = false;}`
       - Recall that Airtable does not return false or empty fields in the `records`.
-    - Update state using `setTodoList([...todoList, savedTodo]);`
+    - Update state using `setTodoList(previous => [savedTodo, ...previous]);`
   - `catch` block logic:
     - Log the error to console.
     - Update `setErrorMessage` state value with `error.message`. This will cause errors to show up for users.
@@ -429,4 +435,4 @@ You will probably have noticed that you are starting to introduce some duplicate
 
 ### Closing Notes
 
- Next week we cover sorting and filtering. The discussion will take us through implementing sorting and searching on both local and API data stores. We'll then implement an API-based sorting and filtering strategy.
+Next week we cover sorting and filtering. The discussion will take us through implementing sorting and searching on both local and API data stores. We'll then implement an API-based sorting and filtering strategy.
