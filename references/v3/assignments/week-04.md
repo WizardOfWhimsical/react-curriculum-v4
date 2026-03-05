@@ -21,7 +21,7 @@ Refactor App with the following changes:
   - It takes an argument `title`
   - Create a const `newTodo` with an object that uses `title`, and `id` as keys.
     - Set the `id` using `Date.now()`.
-  - The handler then calls `setTodoList` passing in an array containing the destructured `todoList` and `newTodo`. It should look like: `setTodoList([...todoList, newTodo])`
+  - The handler then calls `setTodoList` passing in an array containing the destructured `todoList` and `newTodo`. It should look like: `setTodoList(previous => [newTodo, ...previous])`
 - Pass the function to an `onAddTodo` props on the `TodoForm` instance.
 
 #### Adding an Event Handler to the Form
@@ -32,18 +32,24 @@ Go to the `TodoForm` and make the following changes:
 - Define a `handleAddTodo`function above the return statement:
   - The function takes an `event` object
   - Call the `event.preventDefault()` in the first line of the function to prevent the page from refreshing when a user clicks the Add Todo button.
-- Add a `console.dir(event.target)` - *we will use this console statement to figure out how to access the input value from the form*.
+- Add a `console.dir(event.target)` - _we will use this console statement to figure out how to access the input value from the form_.
 
 This is how `handleAddTodo` should look so far:
 
 ```jsx
-{/*extract from TodoForm.jsx*/}
-{/*...code*/}
-function handleAddTodo(event){
-    event.preventDefault()
-    console.dir(event.target)
+{
+  /*extract from TodoForm.jsx*/
 }
-{/*code continues...*/}
+{
+  /*...code*/
+}
+function handleAddTodo(event) {
+  event.preventDefault();
+  console.dir(event.target);
+}
+{
+  /*code continues...*/
+}
 ```
 
 - On the form, add an `onSubmit` event listener and pass in `handleAddTodo`: `<form onSubmit={handleAddTodo}>`. When the form submits, the event listener will fire off the function and pass it the submit event's event object.
@@ -97,19 +103,22 @@ With that in place, a user should now be able to click the Add Todo button and t
 Your `TodoList` component should now look like:
 
 ```jsx
-{/*extract from TodoList.jsx*/}
-import TodoListItem from "./TodoListItem"
+{
+  /*extract from TodoList.jsx*/
+}
+import TodoListItem from './TodoListItem';
 
-function TodoList({todoList}){
-
-    return(
-        <ul>
-            {todoList.map(todo => <TodoListItem key={todo.id} todo={todo} />)}
-        </ul>
-    )
+function TodoList({ todoList }) {
+  return (
+    <ul>
+      {todoList.map((todo) => (
+        <TodoListItem key={todo.id} todo={todo} />
+      ))}
+    </ul>
+  );
 }
 
-export default TodoList
+export default TodoList;
 ```
 
 Back over in the browser, we are still rendering the `TodoList` but it's children are now tied to the `todoList` state. Since the `initialValue` is an empty array, no `TodoListItem`s are rendered.
